@@ -15,7 +15,7 @@ public class math {
         String name2;
 
         //first team prompts
-        Scanner nm1 = new Scanner(System.in);
+        Scanner nm1 = new Scanner(System.in); //think on better names for the variables, it need to be very obvious what they hold
         System.out.println("Enter the First team name:");
         name1 = nm1.nextLine();
 
@@ -44,7 +44,7 @@ public class math {
 
 
         //prompts
-        int number3 = number1 * 3;
+        int number3 = number1 * 3; //Never do anything like number3 and numbr3 it may become very hard for someone to read on extensive software
         int numbr3 = numbr1 * 3;
 
         int number4 = (number3 + number2);
